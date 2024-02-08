@@ -1,6 +1,3 @@
-
-from os import system
-
 try:
     data = dict()
     choice = 1
@@ -71,8 +68,6 @@ try:
                           "     Select option 3 in main menu..")
             else:
                 print("         Account not found....!")
-
-
 
 except:
     pass
