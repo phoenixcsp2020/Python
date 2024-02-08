@@ -1,3 +1,4 @@
+from os import *
 try:
     data = dict()
     choice = 1
