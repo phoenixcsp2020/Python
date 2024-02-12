@@ -6,7 +6,6 @@ try:
     while opt != 0:
         print("\nWelcome To Our Bank...!")
         print("=======================")
-        # print(li)
         opt = int(input("\n    MAIN MENU\n    ---------\n\n1. Sign In\n2. Sign Up\n3. Delete User\n0. Exit\n\nEnter your choice: "))
         li = list(data.keys())
         if opt == 1:
