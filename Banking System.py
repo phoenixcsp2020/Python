@@ -29,7 +29,6 @@ try:
                                   f"\n       Name            : {data[Id][1]}"
                                   f"\n       Mobile Number   : {data[Id][2]}"
                                   f"\n       Current Balance : {data[Id][3]}")
-
                         elif choice == 2:  # code for withdraw
                             print(f"Your Account Balance = {data[Id][3]}\n")
                             amt = float(input("Enter Amount to withdraw: "))
@@ -44,7 +43,6 @@ try:
                                       f"\n      Name            : {data[Id][1]}"
                                       f"\n      Mobile Number   : {data[Id][2]}"
                                       f"\n      Current Balance : {data[Id][3]}")
-
                         elif choice == 3:  # code for balance checking
                             print(f"\n    Account Balance Details...\n"
                                   f"\n      User Id         : {Id}"
@@ -68,7 +66,6 @@ try:
                 email = input(" Enter your Email Id: ")
                 mob = input(" Enter your Mobile Number: ")
                 amt = 0.0
-                # data[Id][5] += count
                 acc = acc + count
                 data[Id] = [pwd, name, mob, amt, email, acc]  # write to dictionary
                 print(f"\n  successfully Registered.... "
@@ -109,7 +106,6 @@ try:
             print("\nPlease enter numbers either 1,2,3 or 0...only")
 except:
     print("Raised an Error")
-
 finally:
     print("\n____________________________________________")
     print("!......THANKS FOR VISITING OUR BRANCH......!")
