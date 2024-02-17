@@ -4,7 +4,7 @@
 try:
     data = dict()
     opt = 1
-    acc = 565678942361
+    acc = 565678942361  # this is random number, a\c number starts from this number.
     while opt != 0:
         print("\nWelcome To Our Bank...!")
         print("=======================")
@@ -93,7 +93,6 @@ try:
                         tex = input("Do you want to Delete the Account...(Y/N).: ")
                         if tex == 'Y' or tex == 'y':
                             del data[Id]
-                            # data.pop()
                             print("    Account deleted successfully...")
                         else:
                             print("   Account is still exist...")
@@ -106,7 +105,7 @@ try:
         else:
             print("\nPlease enter numbers either 1,2,3 or 0...only")
 except:
-    print("Raised an Error")
+    print("There are some errors.....!")
 finally:
     print("\n____________________________________________")
     print("!......THANKS FOR VISITING OUR BRANCH......!")
